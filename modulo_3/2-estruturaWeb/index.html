@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador</title>
+  </head>
+  <body>
+
+    <div class="contador-container">
+      <div class="contador-header-container">
+        <h1>Contador</h1>
+        <p class="contador-paragrafo">Exemplo de um contador usando JS</p>
+      </div>
+
+      <div class="contador-btn-container">
+        <button class="btn-subtrair" onclick="subtrair()">-</button>
+        <span id="currentNumber">0</span>
+        <button class="btn-somar" onclick="somar()">+</button>
+      </div>
+
+      <div class="contador-resultado-container">
+          <span id="resultado">Aqui fica o resultado!</span>
+      </div>
+    </div>
+
+  </body>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,400;0,500;1,100;1,500&display=swap");
+  </style>
+  <script src="./JS/scripts.js"></script>
+</html>
